@@ -9,18 +9,6 @@
 - **Undo**: ย้อนกลับไปสถานะก่อนหน้า (ย้อนได้ต่อเนื่องจนหมดประวัติ)
 - **Show**: แสดงข้อความปัจจุบัน
 
-## การคอมไพล์และรัน
-
-ต้องมี `gcc` (เช่น MinGW-w64 / MSYS2 บน Windows)
-
-```bash
-gcc -Wall -Wextra TextEdit.c -o output/TextEdit.exe
-./output/TextEdit.exe
-```
-
-> บน Windows ควรวางโปรเจกต์ไว้ใน path ที่เป็นภาษาอังกฤษ (เช่น `C:\code\C`)
-> เพราะ path ภาษาไทยอาจทำให้ gcc เขียนไฟล์ `.exe` ไม่ได้
-
 ## เมนู
 
 ```
