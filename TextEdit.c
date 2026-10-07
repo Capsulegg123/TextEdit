@@ -105,7 +105,7 @@ int main(void) {
 
     initStack(&undoStack);
 
-    /* วนแสดงเมนูจนกว่าผู้ใช้เลือก 0 */
+    // วนแสดงเมนูจนกว่าผู้ใช้เลือก 0
     do {
         printf("\n===== Text Editor =====\n");
         printf("1. Add text\n");
